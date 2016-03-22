@@ -2,7 +2,7 @@
 
 Flume-NG 's ExecSource is aimed at collecting every line in xxx.log as a flume event. The line is ended with '$' by default. But in some situations, one log is multiline, for instance, the error logs are mostly multiline because of stacktrace. So I have developed a MultiLineExecSource which based on ExecSource.
 
-**NOTE: MultiLineExecSource plugin is built for Flume-NG and will not work on Flume-OG**
+**NOTE 1: MultiLineExecSource plugin is built for Flume-NG and will not work on Flume-OG**
 
 **NOTE 2: It lacks comprehensive test coverage. Of course contributions are welcome to make its more stable and useful**
 
@@ -26,7 +26,7 @@ For instance, the HDFS's datanode log is usually starting with '2016-03-18 17:53
 
 The MultiLineExecSource is based on the regular exec source and includes the same parameters. It also adds one additional one:
 
-* **lineStartRegex**: This is used to distinguish every line.
+* **lineStartRegex**: It is used to distinguish every line.
 
 
 Example config:
