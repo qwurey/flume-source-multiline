@@ -1,4 +1,4 @@
-# Info Flume Plugins
+# Info Flume Plugin: MultiLineExecSource
 
 Flume-NG 's ExecSource is aimed at collecting every line in xxx.log as a flume event. The line is ended with '$' by default. But in some situations, one log is multiline, for instance, the error logs are mostly multiline because of stacktrace. So I have developed a MultiLineExecSource which based on ExecSource.
 
@@ -8,7 +8,7 @@ Flume-NG 's ExecSource is aimed at collecting every line in xxx.log as a flume e
 
 ## Compilation
 
-The project is maintained by Maven[Maven](http://maven.apache.org/).
+The project is maintained by [Maven](http://maven.apache.org/).
 
 ## Installation instructions
 
