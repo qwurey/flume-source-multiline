@@ -32,7 +32,7 @@ The MultiLineExecSource is based on the regular exec source and includes the sam
 Example config:
 
 ```
-agent.sources.hdfs_namenode_src.type = com.tbds.flume.MultiLineExecSource
+agent.sources.hdfs_namenode_src.type = com.urey.flume.MultiLineExecSource
 agent.sources.hdfs_namenode_src.lineStartRegex = \\s?\\d\\d\\d\\d-\\d\\d-\\d\\d\\s\\d\\d:\\d\\d:\\d\\d,\\d\\d\\d
 ```
 
